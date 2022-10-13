@@ -6,7 +6,7 @@ provider "google" {
 # https://www.terraform.io/language/settings/backends/gcs
 terraform {
   backend "gcs" {
-    bucket = "hu22-anthos-product"
+    bucket = "hu22-anthos-product-jenkins"
     prefix = "terraform/state"
   }
   required_providers {
