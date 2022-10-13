@@ -1,6 +1,6 @@
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs
 provider "google" {
-  project = "us-gcp-ame-its-23a8a-sbx-1"
+  project = "hu-devops-gcp"
   region  = "us-central1"
 }
 # https://www.terraform.io/language/settings/backends/gcs
